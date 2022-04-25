@@ -1,0 +1,1712 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: center;
+}
+/*====== common css end ======*/
+
+
+
+.navication{
+    width: 100%;
+    height: 50px;
+    background: #F26522;
+}
+.navication .navi-content{
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+}
+.navication .navi-content .navi-menu{
+    width: 250px;
+    height: 50px;
+    float: left;
+}
+.navication .navi-content .navi-menu ul li{
+    float: left;
+    line-height: 50px;
+    margin-right: 5px;
+}
+.navication .navi-content .navi-menu ul li span{
+    color: white;
+}
+.navication .navi-content .navi-bg{
+    width: 535px;
+    height: 50px;
+    float: left;
+}
+.navication .navi-content .navi-icon{
+    width: 175px;
+    height: 50px;
+    float: left;
+}
+.navication .navi-content .navi-icon ul li{
+    float: left;
+    margin-left: 5px;
+    margin-top: 12px;
+    border-radius: 50%;
+    background:#F26522;
+}
+.navication .navi-content .navi-icon ul li img{
+    width: 30px;
+    height: 25px;
+}
+.navication .navi-content .navi-icon ul li:hover{
+    background: #8b3131;
+    transition: all linear 2s;
+}
+/*====== navigation css end ======*/
+
+
+.menu-bg{
+    width: 100%;
+    height: 75px;
+    background: #F7F8FA;
+}
+.menu-bg .menu-content{
+    width: 960px;
+    height: 75px;
+    margin: 0 auto;
+}
+.menu-bg .menu-content .logo{
+    width: 330px;
+    height: 75px;
+    background: #F7F8FA;
+    float: left;
+}
+.menu-bg .menu-content .logo img{
+    width: 200px;
+    height: 35px;
+    margin-top: 18px;
+}
+.menu-bg .menu-content .menu-item{
+    width: 630px;
+    height: 75px;
+    float: left;
+}
+.menu-bg .menu-content .menu-item ul li span{
+    font-size: 15px;
+    color: #0b0303;
+    padding: 5px 12px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #F7F8FA;
+}
+.menu-bg .menu-content .menu-item ul li .home{
+    color: white;
+    background: #F26522;
+}
+.menu-bg .menu-content .menu-item ul li{
+    float: left;
+    margin-left: 7px;
+    margin-top: 27px;
+}
+.menu-bg .menu-content .menu-item ul li span:hover{
+    background: #F26522;
+    transition: all linear 0.65s;
+}
+/*====== menu css end ======*/
+
+
+.banner-section{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/bg9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-section .banner-overlay{
+    width: 100%;
+    height: 700px;
+    background: rgba(11, 3, 3, 0.47);
+    position: absolute;
+}
+.banner-section .banner-content{
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner-section .banner-content .banner-main{
+    width: 600px;
+    height: 700px;
+    float: left;
+}
+.banner-section .banner-content .banner-main .banner-heading{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.banner-section .banner-content .banner-main .banner-list .para1{
+    float: left;
+    width: 300px;
+    color: white;
+}
+.banner-section .banner-content .banner-main .banner-list .para1 .align-left{
+    float: left;
+    margin-top: -20px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background: #F26522;
+}
+.banner-section .banner-content .banner-main .banner-list .para1 .align-left:hover{
+    border: 5px solid white;
+}
+.banner-section .banner-content .banner-main .banner-list .para2{
+    float: right;
+    width: 300px;
+    color: white;
+}
+.banner-section .banner-content .banner-main .banner-list .para2 .align-right{
+    float: left;
+    margin-top: -20px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background: #F26522;
+}
+.banner-section .banner-content .banner-main .banner-list .para2 .align-right:hover{
+    border: 5px solid white;
+}
+.banner-section .banner-content .banner-main .banner-button{
+    margin-top: 150px;
+}
+.banner-section .banner-content .banner-main .banner-button a{
+    border: 2px solid #F26522;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.banner-section .banner-content .banner-main .banner-button .contact{
+    margin-left: 20px;
+    color: white;
+    background: #F26522;
+}
+.banner-section .banner-content .banner-main .banner-button .contact:hover{
+    background: #88553d;
+}
+.banner-section .banner-content .banner-main .banner-button .read{
+    color: #F26522;
+    background: white;
+}
+.banner-section .banner-content .banner-main .banner-button .read:hover{
+    background: #e2d9d5;
+}
+.banner-section .banner-content .donation-form{
+    width: 360px;
+    height: 700px;
+    float: left;
+}
+.banner-section .banner-content .donation-form .dona-content{
+    width: 330px;
+    height: 70%;
+    background: white;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.banner-section .banner-content .donation-form .dona-content .head1 span{
+    color: #F26522;
+}
+.banner-section .banner-content .donation-form .dona-content .head1{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.banner-section .banner-content .donation-form .dona-content hr{
+    margin-left: 20px;
+}
+.banner-section .banner-content .donation-form .dona-content form{
+    margin-left: 20px;
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.banner-section .banner-content .donation-form .dona-content form span{
+    color: #F26522;
+    font-weight: bold;
+}
+.banner-section .banner-content .donation-form .dona-content form .donate{
+    width: 160px;
+    float: left;
+}
+.banner-section .banner-content .donation-form .dona-content form select{
+    padding: 10px;
+    font-size: 13px;
+    padding-right: 1px;
+    padding-left: 1px;
+    background: white;
+    border: 1px solid #958181;
+}
+.banner-section .banner-content .donation-form .dona-content form .currency{
+    width: 140px;
+    float: right;
+}
+.banner-section .banner-content .donation-form .dona-content form .how{
+    width: 295px;
+    font-size: 15px;
+}
+
+.banner-section .banner-content .donation-form .dona-content form input[type=submit]{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 290px;
+    font-size: 20px;
+    background: #F26522;
+    color: white;
+}
+.banner-section .banner-content .donation-form .dona-content form input[type=submit]:hover{
+    background: #a56040;
+}
+/*====== background1 css end ======*/
+
+
+.content-1{
+    width: 100%;
+    height: 150px;
+    background: #F26522;
+}
+.content-1 .content-main{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+}
+.content-1 .content-main .heading{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.content-1 .content-main .call{
+    font-size: 30px;
+    font-family: Adobe Devanagari;
+}
+
+
+/*====== content1 css end ======*/
+
+.content-2{
+    width: 100%;
+    height: 500px;
+    background: #F7F8FA;
+}
+.content-2 .content-main{
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+.content-2 .content-main .content-left{
+    width: 660px;
+    height: 500px;
+    float: left;
+}
+.content-2 .content-main .content-left .pic{
+    width: 300px;
+    height: 350px;
+    margin-top: 75px;
+    float: left;
+}
+.content-2 .content-main .content-left .pic img{
+    width: 280px;
+    height: 350px;
+}
+.content-2 .content-main .content-left .pic-content{
+    width: 360px;
+    height: 350px;
+    margin-top: 75px;
+    float: left;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.content-2 .content-main .content-left .pic-content .head-1{
+    color: #141e1f;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content-2 .content-main .content-left .pic-content .head-2{
+    color: #0b0303;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+.content-2 .content-main .content-left .pic-content .head-3{
+    color: #141e1f;
+}
+.content-2 .content-main .content-left .pic-content img{
+    width: 350px;
+}
+.content-2 .content-main .content-left .pic-content .left{
+    color: #3c3434;
+    float: left;
+    font-size: 20px;
+}
+.content-2 .content-main .content-left .pic-content .left .dollar1{
+    font-weight: bold;
+}
+.content-2 .content-main .content-left .pic-content .right{
+    color: #F26522;
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.content-2 .content-main .content-left .pic-content .right .dollar2{
+    font-weight: bold;
+}
+.content-2 .content-main .content-left .pic-content a{
+    color: white;
+    float: left;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    background: #F26522;
+}
+.content-2 .content-main .content-left .pic-content a:hover{
+    background: #8e5337;
+}
+.content-2 .content-main .content-right{
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+.content-2 .content-main .content-right .volunter{
+    width: 290px;
+    height: 350px;
+    background: url(../images/f1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 75px;
+    margin-left: 10px;
+    text-align: center;
+}
+.content-2 .content-main .content-right .volunter img{
+    width: 60px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.content-2 .content-main .content-right .volunter .heading{
+    color: #F26522;
+    font-size: 20px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-left: 18px;
+    font-family: Century;
+}
+.content-2 .content-main .content-right .volunter .para{
+    color: white;
+}
+.content-2 .content-main .content-right .volunter a{
+    color: white;
+    background: #F26522;
+    padding: 10px;
+    font-size: 20px;
+}
+.content-2 .content-main .content-right .volunter a:hover{
+    background: #9d5f41;
+}
+
+/*======content2 css end======*/
+
+.content3{
+    width: 100%;
+    height: 350px;
+    background: #F7F8FA;
+}
+.content3 .content-section{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.content3 .content-section .section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content3 .content-section .section1{
+    width: 300px;
+    height: 200px;
+    background: #F26522;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: white;
+    margin-right: 20px;
+}
+.content3 .content-section .section1 img{
+    float: left;
+    width: 70px;
+}
+.content3 .content-section .section1 .heading{
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: Adobe Devanagari;
+    text-transform: uppercase;
+}
+.content3 .content-section .section1 .para{
+    float: left;
+    width: 220px;
+}
+.content3 .content-section .section2{
+    width: 320px;
+    height: 200px;
+    background: #F26522;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: white;
+    margin-right: 20px;
+}
+.content3 .content-section .section2 img{
+    float: left;
+    width: 70px;
+}
+.content3 .content-section .section2 .heading{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: Adobe Devanagari;
+    text-transform: uppercase;
+}
+.content3 .content-section .section2 .para{
+    float: left;
+    width: 220px;
+}
+.content3 .content-section .section3{
+    width: 300px;
+    height: 200px;
+    background: #F26522;
+    float: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+.content3 .content-section .section3 img{
+    float: left;
+    width: 70px;
+}
+.content3 .content-section .section3 .heading{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: Adobe Devanagari;
+    text-transform: uppercase;
+}
+.content3 .content-section .section3 .para{
+    float: left;
+    width: 220px;
+}
+
+/*====== content3 css end======*/
+.content4{
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+.content4 .content-section{
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+.content4 .content-section .left-section{
+    width: 480px;
+    height: 500px;
+    float: left;
+}
+.content4 .content-section .left-section .gallary{
+    width: 480px;
+    height: 350px;
+    margin-top: 80px;
+}
+.content4 .content-section .left-section .gallary .left-gal{
+    width: 240px;
+    height: 350px;
+    float: left;
+}
+.content4 .content-section .left-section .gallary .left-gal img{
+    width: 230px;
+    height: 340px;
+}
+.content4 .content-section .left-section .gallary .right-gal{
+    width: 240px;
+    height: 350px;
+    float: left;
+}
+.content4 .content-section .left-section .gallary .right-gal .top-gal{
+    height: 175px;
+}
+.content4 .content-section .left-section .gallary .right-gal .top-gal img{
+    height: 170px;
+    width: 270px;
+}
+.content4 .content-section .left-section .gallary .right-gal .bottom-gal{
+    height: 175px;
+}
+.content4 .content-section .left-section .gallary .right-gal .bottom-gal img{
+    height: 160px;
+    margin-top: 5px;
+    width: 270px;
+}
+.content4 .content-section .right-section{
+    width: 480px;
+    height: 500px;
+    float: left;
+}
+.content4 .content-section .right-section .right-content{
+    width: 450px;
+    height: 340px;
+    margin-top: 80px;
+    margin-left: 40px;
+    position: relative;
+}
+.content4 .content-section .right-section .right-content .heading{
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-family: Adobe Devanagari;
+    font-weight: bold;
+    color: black;
+}
+.content4 .content-section .right-section .right-content p{
+    color: #24272a;
+}
+.content4 .content-section .right-section .right-content .fund{
+    color: #F96522;
+}
+.content4 .content-section .right-section .right-content img{
+    padding-top: 10px;
+}
+.content4 .content-section .right-section .right-content a{
+    font-size: 20px;
+    padding: 5px 10px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border: 1px solid #F26522;
+}
+.content4 .content-section .right-section .right-content .read{
+   color: white;
+   background: #F26522;
+}
+.content4 .content-section .right-section .right-content .get{
+   color: #F26522;
+   background: white;
+   margin-left: 120px;
+}
+
+/*====== content4 css end ======*/
+
+.content5{
+    width: 100%;
+    height: 950px;
+    background: #F7F8FA; 
+}
+.content5 .content-section{
+    width: 960px;
+    height: 800px;
+    margin: 0 auto;
+}
+.content5 .content-section .heading-empty{
+    width: 960px;
+    height: 50px;
+}
+.content5 .content-section .heading-section{
+    width: 960px;
+    height: 200px;
+    background: #F7F8FA;
+    text-align: center;
+}
+.content5 .content-section .heading-section .heading{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Adobe Devanagari;
+}
+.content5 .content-section .heading-section .cause{
+    color: #F26522; 
+}
+.content5 .content-section .heading-content{
+    width: 960px;
+    height: 600px;
+}
+.content5 .content-section .heading-content .main{
+    width: 960px;
+    height: 550px;
+    margin-top: 25px;
+}
+.content5 .content-section .heading-content .main .content1{
+    width: 310px;
+    height: 550px;
+    background: white;
+    float: left;
+    margin-right: 15px;
+}
+.content5 .content-section .heading-content .main .content1 img{
+    width: 310px;
+    height: 250px;
+}
+.content5 .content-section .heading-content .main .content1 .raised{
+    float: left;
+    font-size: 25px;
+}
+.content5 .content-section .heading-content .main .content1 .goal{
+    float: right;
+    font-size: 25px;
+}
+.content5 .content-section .heading-content .main .content1 .dollar{
+    color: #F26522;
+    font-weight: bold;
+}
+.content5 .content-section .heading-content .main .content1 .heading2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Adobe Devanagari;
+}
+.content5 .content-section .heading-content .main .content1 .range{
+    width: 100%;
+    height: 35px;
+}
+.content5 .content-section .heading-content .main .content1 .dona{
+    width: 30px;
+    height: 20px;
+    background: #F26522;
+}
+.content5 .content-section .heading-content .main .content1 a{
+    background: #F26522;
+    border: 1px solid red;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.content5 .content-section .heading-content .main .content1 a:hover{
+    background: rgba(190, 100, 100, 0.96);
+}
+
+.content5 .content-section .heading-content .main .content2{
+    width: 310px;
+    height: 550px;
+    background: white;
+    float: left;
+    margin-right: 15px;
+}
+.content5 .content-section .heading-content .main .content2 img{
+    width: 310px;
+    height: 250px;
+}
+.content5 .content-section .heading-content .main .content2 .raised{
+    float: left;
+    font-size: 25px;
+}
+.content5 .content-section .heading-content .main .content2 .goal{
+    float: right;
+    font-size: 25px;
+}
+.content5 .content-section .heading-content .main .content2 .dollar{
+    color: #F26522;
+    font-weight: bold;
+}
+.content5 .content-section .heading-content .main .content2 .heading2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Adobe Devanagari;
+}
+.content5 .content-section .heading-content .main .content2 .range{
+    width: 100%;
+    height: 35px;
+}
+.content5 .content-section .heading-content .main .content2 .dona{
+    width: 30px;
+    height: 20px;
+    background: #F26522;
+}
+.content5 .content-section .heading-content .main .content2 a{
+    background: #F26522;
+    border: 1px solid red;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.content5 .content-section .heading-content .main .content2 a:hover{
+    background: rgba(190, 100, 100, 0.96);
+}
+
+
+.content5 .content-section .heading-content .main .content3{
+    width: 310px;
+    height: 550px;
+    background: white;
+    float: left;
+}
+.content5 .content-section .heading-content .main .content3 img{
+    width: 310px;
+    height: 250px;
+}
+.content5 .content-section .heading-content .main .content3 .raised{
+    float: left;
+    font-size: 25px;
+}
+.content5 .content-section .heading-content .main .content3 .goal{
+    float: right;
+    font-size: 25px;
+}
+.content5 .content-section .heading-content .main .content3 .dollar{
+    color: #F26522;
+    font-weight: bold;
+}
+.content5 .content-section .heading-content .main .content3 .heading2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Adobe Devanagari;
+}
+.content5 .content-section .heading-content .main .content3 .range{
+    width: 100%;
+    height: 35px;
+}
+.content5 .content-section .heading-content .main .content3 .dona{
+    width: 30px;
+    height: 20px;
+    background: #F26522;
+}
+.content5 .content-section .heading-content .main .content3 a{
+    background: #F26522;
+    border: 1px solid red;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.content5 .content-section .heading-content .main .content3 a:hover{
+    background: rgba(190, 100, 100, 0.96);
+}
+
+/*====== content5 css end ======*/
+
+.background2{
+    width: 100%;
+    height: 300px;
+    background: url(../images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.background2 .bg-overlay{
+    background: rgba(11, 3, 3, 0.81);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+.background2 .bg-overlay .bg-content{
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+.background2 .bg-overlay .bg-content .main3{
+    width: 960px;
+    height: 200px;
+    margin-top: 50px;
+}
+.background2 .bg-overlay .bg-content .main3 .content1{
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+.background2 .bg-overlay .bg-content .main3 .content2{
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+.background2 .bg-overlay .bg-content .main3 .content-3{
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+.background2 .bg-overlay .bg-content .main3 .content-4{
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+.background2 .bg-overlay .bg-content .main3 .content img{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.background2 .bg-overlay .bg-content .main3 .content .number{
+    font-size: 50px;
+    font-family: Adobe Devanagari;
+    margin-left: 90px;
+    color: white;
+}
+.background2 .bg-overlay .bg-content .main3 .content .para{
+    font-family: Adobe Devanagari;
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+/*====== background2 css end ======*/
+
+
+.volunter{
+   width: 100%;
+   height: 800px;
+   background: #F7F8FA; 
+}
+.volunter .vol-section{
+   width: 960px;
+   height: 800px;
+   margin: 0 auto;
+}
+.volunter .vol-section .section-empty{
+   width: 960px;
+   height: 50px;
+   background: #F7F8FA; 
+}
+.volunter .vol-section .heading-section{
+   width: 960px;
+   height: 200px;
+   text-align: center;
+}
+.volunter .vol-section .heading-section span{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.volunter .vol-section .heading-section span .vol{
+    color: #F26522;
+}
+.volunter .vol-section .heading-section p{
+    color: #524040;
+}
+.volunter .vol-section .content-section{
+    width: 960px;
+    height: 500px;
+}
+.volunter .vol-section .content-section .con1{
+    width: 230px;
+    height: 500px;
+    float: left;
+    margin-right: 13px;
+    text-align: center;
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #F26522;
+}
+.volunter .vol-section .content-section .con1 img{
+    width: 230px;
+}
+.volunter .vol-section .content-section .con1 a{
+    color: #F26522;
+}
+.volunter .vol-section .content-section .con1 .heading{
+    font-size: 30px;
+}
+
+.volunter .vol-section .content-section .con2{
+    width: 230px;
+    height: 500px;
+    float: left;
+    margin-right: 13px;
+    text-align: center;
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #F26522;
+}
+.volunter .vol-section .content-section .con2 img{
+    width: 230px;
+}
+.volunter .vol-section .content-section .con2 a{
+    color: #F26522;
+}
+.volunter .vol-section .content-section .con2 .heading{
+    font-size: 30px;
+}
+
+.volunter .vol-section .content-section .con3{
+    width: 230px;
+    height: 500px;
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #F26522;
+}
+.volunter .vol-section .content-section .con3 img{
+    width: 230px;
+}
+.volunter .vol-section .content-section .con3 a{
+    color: #F26522;
+}
+.volunter .vol-section .content-section .con3 .heading{
+    font-size: 30px;
+}
+
+.volunter .vol-section .content-section .con4{
+    width: 230px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #F26522;
+}
+.volunter .vol-section .content-section .con4 img{
+    width: 230px;
+}
+.volunter .vol-section .content-section .con4 a{
+    color: #F26522;
+}
+.volunter .vol-section .content-section .con4 .heading{
+    font-size: 30px;
+}
+.volunter .vol-section .content-section .fot-1{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.volunter .vol-section .content-section .fot-1 ul li{
+    float: left;
+    padding: 5px;
+    width: 20px;
+    margin-left: 5px;
+    background: #F26522;
+}
+.volunter .vol-section .content-section .fot-1 ul li img{
+    width: 20px;
+    height: 20px;
+    background: #F26522;
+}
+.volunter .vol-section .content-section .fot-1 ul li:hover a{
+   background: #b2775c; 
+}
+
+/*====== volunter css end ======*/
+
+
+.background3{
+    width: 100%;
+    height: 300px;
+    background: url(../images/bg13.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+.background3 .bg-overlay{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background: rgba(11, 2, 2, 0.78);
+}
+.background3 .bg-overlay .bg-content{
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+.background3 .bg-overlay .bg-content .empty{
+    width: 960px;
+    height: 80px;
+}
+.background3 .bg-overlay .bg-content .content{
+    width: 960px;
+    height: 220px;
+    text-align: center;
+}
+.background3 .bg-overlay .bg-content .content .heading{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: Adobe Devanagari;
+}
+.background3 .bg-overlay .bg-content .content .vol{
+    color: #F26522;
+}
+.background3 .bg-overlay .bg-content .content .para{
+    color: #decece;
+    font-family: Adobe Devanagari;
+}
+
+/*====== background3 css end ======*/
+
+.content6{
+    width: 100%;
+    height: 700px;
+    background: #F5F5F5;
+}
+.content6 .content-section{
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+}
+.content6 .content-section .empty1{
+    width: 960px;
+    height: 50px;
+}
+.content6 .content-section .left{
+    width: 480px;
+    height: 600px;
+    background: white;
+    float: left;
+}
+.content6 .content-section .left form .heading{
+    background: #F76522;
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    font-family: Adobe Devanagari;
+    padding: 10px;
+    padding-right: 174px;
+    font-weight: bold;
+}
+.content6 .content-section .left form .name{
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.content6 .content-section .left input[type=text]{
+    height: 40px;
+    width: 180px;
+    padding-left: 20px;
+}
+.content6 .content-section .left input[type=email]{
+    height: 40px;
+    width: 180px;
+    padding-left: 20px;
+}
+.content6 .content-section .left form .email{
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.content6 .content-section .left form .sex{
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.content6 .content-section .left form #sex{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    background: white;
+    border: 1px solid gray;
+}
+.content6 .content-section .left form .branch{
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.content6 .content-section .left form #branch{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    background: white;
+    border: 1px solid gray;
+}
+.content6 .content-section .left form .message{
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.content6 .content-section .left form #message{
+    height: 80px;
+    width: 420px;
+    padding-right: 20px;
+    background: white;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.content6 .content-section .left form .upload{
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content6 .content-section .left form input[type=submit]{
+    margin-top: 40px;
+    background: #F76522;
+    width: 90%;
+    height: 50px;
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+}
+.content6 .content-section .left form input[type=submit]:hover{
+    background: #b77e63;
+}
+.content6 .content-section .right{
+    width: 480px;
+    height: 600px;
+    float: right;
+}
+.content6 .content-section .right img{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+/*====== content6 css end ======*/
+
+.background4{
+    width: 100%;
+    height: 500px;
+    background: url(../images/bg8.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.background4 .bg-overlay{
+   width: 100%;
+   height: 500px;
+   background: rgba(26, 20, 20, 0.9);
+}
+.background4 .bg-overlay .bg-content{
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.background4 .bg-overlay .bg-content .heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.background4 .bg-overlay .bg-content .donor{
+    color: #F26522;
+}
+.background4 .bg-overlay .bg-content .empty{
+    height: 75px;
+}
+.background4 .bg-overlay .bg-content img{
+    border-radius: 50%;
+}
+
+.background4 .bg-overlay .bg-content q{
+    color: #e5d8d8;
+}
+.background4 .bg-overlay .bg-content q{
+    font-size: 15px;
+}
+.background4 .bg-overlay .bg-content .name{
+    font-size: 25px;
+    color: #F26522;
+    font-weight: bold;
+}
+.background4 .bg-overlay .bg-content cite{
+    font-size: 15px;
+    color: #9f8275;
+    font-weight: bold;
+}
+
+/*====== background4 css end ======*/
+
+.content7{
+    width: 100%;
+    height: 700px;
+    background: #F7F8FA;
+}
+.content7 .content-section{
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+}
+.content7 .content-section .empty{
+    width: 960px;
+    height: 50px;
+}
+.content7 .content-section .empty2{
+    width: 960px;
+    height: 20px;
+}
+.content7 .content-section .heading{
+    width: 960px;
+    height: 180px;
+    text-align: center;
+}
+.content7 .content-section .heading .heading-con{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: Adobe Devanagari;
+}
+.content7 .content-section .heading .heading-con .gal{
+    color: #F76522;
+}
+.content7 .content-section .heading p{
+    color: gray;
+}
+.content7 .content-section .heading img{
+    height: 50px;
+}
+.content7 .content-section .gallery{
+    width: 960px;
+    height: 450px;
+    background: #1e293e;
+}
+.content7 .content-section .gallery .pic{
+    width: 240px;
+    height: 150px;
+    background: #1e293e;
+    float: left;
+    border: 4px solid white;
+    box-sizing: border-box;
+}
+.content7 .content-section .gallery img{
+    width: 232px;
+    height: 142px;
+}
+
+/*====== content7 gallery end ======*/
+
+.content8{
+    width: 100%;
+    height: 700px;
+    background: white;
+}
+.content8 .content-section{
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+}
+.content8 .content-section .empty{
+    width: 960px;
+    height: 50px;
+}
+.content8 .content-section .heading{
+    width: 960px;
+    height: 200px;
+    text-align: center;
+}
+.content8 .content-section .heading .heading-our{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: Adobe Devanagari;
+}
+.content8 .content-section .heading .heading-our .text{
+    color: #F76522;
+}
+.content8 .content-section .heading p{
+    color: gray;
+}
+.content8 .content-section .heading img{
+    height: 60px;
+}
+.content8 .content-section .blog{
+    width: 960px;
+    height: 400px;
+}
+.content8 .content-section .blog .main{
+    width: 320px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+.content8 .content-section .blog .content1{
+    border-right: 20px solid white;
+    position: relative;
+    background: rgba(240, 231, 231, 0.83);
+}
+.content8 .content-section .blog .main img{
+    height: 50%;
+    width: 100%;
+}
+.content8 .content-section .blog  .main ul{
+    position: absolute;
+    top: 178px;
+    display: block;
+}
+.content8 .content-section .blog  .main ul li{
+    float: left;
+    border: 3px solid rgba(242, 101, 34, 0.46);
+    background: rgba(242, 101, 34, 0.91);
+    height: 20px;
+    overflow: hidden;
+    font-size: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.content8 .content-section .blog  .main ul .like{
+    width: 50px;
+}
+.content8 .content-section .blog  .main ul li img{
+    width: 23px;
+    height: 20px;
+    overflow: hidden;
+}
+.content8 .content-section .blog  .main .date{
+    float: left;
+    height: 40px;
+    width: 30px;
+    background: #F76522;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.content8 .content-section .blog .main  .date b{
+    border-bottom: 1px solid white;
+    width: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.content8 .content-section .blog  .main .heading{
+    font-size: 20px;
+    display: block;
+    float: right;
+    height: 50px;
+    width: 245px;
+    margin-top: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+.content8 .content-section .blog  .main .para{
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.content8 .content-section .blog  .main a{
+    padding: 5px;
+    border: 1px solid #F76522;
+    margin-left: 10px;
+    color: #F76522;
+}
+.content8 .content-section .blog .main  a:hover{
+    background: #F76522;
+    color: white;
+}
+.content8 .content-section .blog .content2{
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    position: relative;
+    background: rgba(240, 231, 231, 0.83);
+}
+.content8 .content-section .blog .content3{
+    border-left: 20px solid white;
+    position: relative;
+    background: rgba(240, 231, 231, 0.83);
+}
+.content8 .content-section .empty2{
+    width: 960px;
+    height: 50px;
+}
+
+/*====== content8 blog end ======*/
+
+
+.partner{
+    width: 100%;
+    height: 150px;
+    background: #F26522;
+}
+.partner .part-content{
+    width: 960px;
+    height: 150px;
+    margin: 0 auto;
+}
+.partner .part-content .logo{
+    width: 160px;
+    height: 150px;
+    float: left;
+    margin-top: 40px;
+}
+.partner .part-content .logo img{
+    width: 160px;
+    height: 50px;
+}
+
+/*====== partners section css end ======*/
+
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer .footer-overlay{
+    width: 100%;
+    height: 600px;
+    background: #1D1F21;
+}
+.footer .footer-overlay .footer-section{
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+}
+.footer .footer-overlay .footer-section .empty{
+    width: 960px;
+    height: 50px;
+}
+.footer .footer-overlay .footer-section .content{
+    width: 960px;
+    height: 350px;
+}
+.footer .footer-overlay .footer-section .content .main{
+    width: 240px;
+    height: 350px;
+    float: left;
+    box-sizing: border-box;
+}
+.footer .footer-overlay .footer-section .content .main .heading{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    padding-right: 80px;
+}
+.footer .footer-overlay .footer-section .content .content1{
+    border-right: 20px solid #1D1F21;
+}
+.footer .footer-overlay .footer-section .content .content1 img{
+    width: 90%;
+    margin-top: 30px;
+}
+.footer .footer-overlay .footer-section .content .content1 .addrese{
+    margin-left: 10px;
+    display: block;
+    margin-top: 10px;
+    color: gray;
+}
+.footer .footer-overlay .footer-section .content .content1 ul{
+    float: left;
+}
+.footer .footer-overlay .footer-section .content .content1 ul li{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.footer .footer-overlay .footer-section .content .content1 ul li img{
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+}
+.footer .footer-overlay .footer-section .content .content1 ul li span{
+    color: gray;
+}
+
+.footer .footer-overlay .footer-section .content .content-sec2{
+    border-right: 20px solid #1D1F21;
+}
+.footer .footer-overlay .footer-section .content .content-sec2 ul li{
+    width: 100%;
+    height: 55px;
+    border-bottom: 20px solid #1D1F21;
+}
+.footer .footer-overlay .footer-section .content .content-sec2 ul li img{
+    width: 80px;
+    height: 55px;
+    float: left;
+}
+.footer .footer-overlay .footer-section .content .content-sec2 ul li .head{
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 5px;
+}
+.footer .footer-overlay .footer-section .content .content-sec2 ul li a:hover .head{
+    color: #F26522;
+}
+.footer .footer-overlay .footer-section .content .content-sec2 ul li .dat{
+    font-size: 10px;
+    margin-right: 8px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.footer .footer-overlay .footer-section .content .content-sec3{
+    border-right: 20px solid #1D1F21;
+}
+.footer .footer-overlay .footer-section .content .content-sec3 ul li{
+    padding: 10px;
+    color: gray;
+    border-bottom: 1px dotted gray;
+    width: 80%;
+    padding-left: 0px;
+}
+.footer .footer-overlay .footer-section .content .content-sec3 ul li a{
+    color: gray;
+}
+.footer .footer-overlay .footer-section .content .content-sec3 ul li a:hover{
+    color: white;
+}
+
+.footer .footer-overlay .footer-section .content .content-sec4 ul{
+    margin-top: 10px;
+}
+.footer .footer-overlay .footer-section .content .content-sec4 ul li{
+    width: 170px;
+    height: 20px;
+    color: gray;
+    border-bottom: 1px dotted gray;
+    padding: 10px;
+    font-size: 10px;
+}
+.footer .footer-overlay .footer-section .content .content-sec4 ul li .left{
+    float: left;
+}
+.footer .footer-overlay .footer-section .content .content-sec4 ul li .right{
+    float: right;
+}
+
+.footer .footer-overlay .footer-section .empty2{
+    width: 960px;
+    height: 50px;
+}
+.footer .footer-overlay .footer-section .social{
+    width: 960px;
+    height: 100px;
+}
+.footer .footer-overlay .footer-section .social .subscribe{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.footer .footer-overlay .footer-section .social .subscribe label{
+    font-size: 20px;
+    color: white;
+}
+.footer .footer-overlay .footer-section .social .subscribe input[type=email]{
+    width: 60%;
+    height: 30%;
+    padding-left: 10px;
+    border: 2px solid #F26522;
+}
+.footer .footer-overlay .footer-section .social .subscribe input[type=submit]{
+    width: 30%;
+    height: 35%;
+    background: #F26522;
+    border: 1px solid #F26522;
+}
+.footer .footer-overlay .footer-section .social .subscribe input[type=submit]:hover{
+    background: #a75129;
+}
+.footer .footer-overlay .footer-section .social .call{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+}
+.footer .footer-overlay .footer-section .social .call .coll{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer .footer-overlay .footer-section .social .connect{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.footer .footer-overlay .footer-section .social .connect .conn{
+    height: 40%;
+}
+.footer .footer-overlay .footer-section .social .connect .conn span{
+    font-size: 20px;
+    padding-top: 15px;
+    display: block;
+    color: white;
+    padding-left: 8px;
+}
+.footer .footer-overlay .footer-section .social .connect .social{
+    height: 60%;
+    width: 100%;
+}
+.footer .footer-overlay .footer-section .social .connect .social ul li{
+    float: left;
+}
+.footer .footer-overlay .footer-section .social .connect .social ul li img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.footer .footer-overlay .footer-section .social .connect .social ul li a:hover img{
+    background: #8b1515;
+}
+.footer .footer-overlay .footer-section .empty3{
+    width: 960px;
+    height: 50px;
+}
+
+/*====== footer section css end ======*/
+.copyright{
+    width: 100%;
+    height: 50px;
+    background: #342a2a;
+}
+.copyright .copy-content{
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+}
+.copyright .copy-content .copy-left{
+    width: 480px;
+    height: 50px;
+    float: left;
+}
+.copyright .copy-content .copy-left .copy{
+    padding-top: 15px;
+    color: #959fa7;
+    display: block;
+}
+.copyright .copy-content .copy-right{
+    width: 480px;
+    height: 50px;
+    float: right;
+}
+.copyright .copy-content .copy-right ul{
+    margin-left: 200px;
+}
+.copyright .copy-content .copy-right ul li{
+    float: left;
+    padding: 15px;
+    padding-left: 5px;
+    color: #9da9b4;
+    padding-right: 5px;
+}
+.copyright .copy-content .copy-right ul li a{
+    color: #9da9b4;
+}
+.copyright .copy-content .copy-right ul li a:hover{
+    color: #888b44;
+}
+
+/*====== copyright section css end ======*/
+
+
